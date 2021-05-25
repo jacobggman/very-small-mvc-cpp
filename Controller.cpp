@@ -6,15 +6,13 @@ Controller::Controller(View* view, Model* model)
 	this->model = model;
 }
 
-void Controller::add()
+void Controller::userEnterAdd()
 {
-	this->model->add();
-	auto n = this->model->getNum();
-	this->view->show(n);
+	this->model->addByOne();
 }
 
-void Controller::getResult()
+void Controller::userEnterAddShow()
 {
-	auto n = this->model->getNum();
-	this->view->show(n);
+	auto userNumber = this->model->getAddTimes();
+	this->view->printNumber(userNumber);
 }

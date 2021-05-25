@@ -1,11 +1,11 @@
 #include "Model.h"
 
-int Model::getNum()
+int Model::getAddTimes()
 {
-	return n;
+	return timesAdd;
 }
 
-void Model::add()
+void Model::addByOne()
 {
-	n++;
+	timesAdd++;
 }

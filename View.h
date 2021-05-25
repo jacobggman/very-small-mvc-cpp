@@ -9,7 +9,8 @@ class View
 	ViewListener* listener;
 public:
 	void setListener(ViewListener* listener);
-	void add();
-	void show(int n);
+	void printNumber(int n);
+
+	// GUI CODE
 	void run();
 };

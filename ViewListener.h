@@ -2,6 +2,6 @@
 class ViewListener
 {
 public:
-	virtual void add() = 0;
-	virtual void getResult() = 0;
+	virtual void userEnterAdd() = 0;
+	virtual void userEnterAddShow() = 0;
 };

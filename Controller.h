@@ -12,6 +12,6 @@ public:
 	Model* model;
 
 	// Inherited via ViewListener
-	virtual void add() override;
-	virtual void getResult() override;
+	virtual void userEnterAdd() override;
+	virtual void userEnterAddShow() override;
 };

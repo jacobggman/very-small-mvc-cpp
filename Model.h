@@ -1,8 +1,8 @@
 #pragma once
 class Model
 {
-	int n = 0;
+	int timesAdd = 0;
 public:
-	int getNum();
-	void add();
+	int getAddTimes();
+	void addByOne();
 };
